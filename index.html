@@ -1,69 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name=viewport content="width=device-width, initial-scale=1">
-	<title>Jezzica</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Jezzica Mae Tan | Front end developer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
+	<div class="drop-down">
+		<button class="hamburger"><i class="fa fa-bars"></i></button>
+		<button class="cross"><i class="fa fa-close"></i></button>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="#a-home" class="smoothScroll">Home</a></li>
+			<li><a href="#a-about" class="smoothScroll">About</a></li>
+			<li><a href="#a-skills" class="smoothScroll">Skills</a></li>
+			<li><a href="#a-works" class="smoothScroll">Work</a></li>
+		</ul>
+	</div>
 	<nav>
-		<div class="nav-wrap">
+		<div class="nav-wrap wrapper">
 			<div class="left-nav">
 				<p><span>J</span>MT</p>
 			</div>
 			<div class="right-nav">
 				<ul>
-				    <li><a class="a-home" href="#">Home</a></li>
-				    <li><a href="#a-about">About</a></li>
-				    <li><a href="#a-work">Work</a></li>
-				    <li><a href="#a-contact">Contact</a></li>
+					<li><a href="#a-home" class="smoothScroll" id="home-nav">Home</a></li>
+					<li><a href="#a-about" class="smoothScroll">About</a></li>
+					<li><a href="#a-skills" class="smoothScroll">Skills</a></li>
+					<li><a href="#a-works" class="smoothScroll">Work</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	<section class="home">
-		<div class="home-wrapper">
-			<p class="home-name">Jezzica</p>
-			<p class="home-des">A multi-talented freelance web designer & front-end developer</p>
+	<section class="home" id="a-home">
+		<div class="wrapper">
+			<h1>JEZZICA MAE TAN</h1>
+			<h2>Front end developer</h2>
 			<div class="home-bot animated infinite bounce">
-				<a href="#a-about"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+				<a href="#a-about" class="smoothScroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
 			</div>
-		</div>	
+		</div>
 	</section>
 	<section class="about" id="a-about">
-		<div class="about-wrapper">
-			<div class="about-title">
-				<p><span>About</span> Me</p>
-			</div>
+		<div class="wrapper">
+			<h3><span>About</span> Me</h3>
 			<div class="about-container">
 				<div class="about-left">
-					<img src="me.jpeg" alt="my image">
+					<img src="../assets/img/me.jpeg" alt="my image">
 				</div>
 				<div class="about-right">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti veritatis, voluptates natus culpa nisi eveniet placeat hic expedita nobis dolorum, tenetur! Ad veniam in at, atque rerum. Corporis, repellendus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos qui necessitatibus provident quis aspernatur ea, obcaecati praesentium eaque quae enim aliquid magni repudiandae sunt, dolor incidunt laudantium molestias. Nihil, sit!</p>
-					<button type="button">Resume / cv <i class="fa fa-download" aria-hidden="true"></i>
-					</button>
+					<p>Hello! My name is Jezzica, I'm a front-end developer based in Toronto. I am currently studying computer programming
+						at George Brown College, and I build personal projects on the side. I love making beautiful websites and eager to get
+						more knowledge.</p>
+
+					<div class="icons">
+						<p></p>
+						<a href="mailto:jezzicamae@gmail.com" target="contact"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/jezzicaaaaa/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						<a href="https://github.com/jezzicaaaaa"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+					</div>
+
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="work" id="a-work">
-		<div class="work-wrapper">
-			<div class="work-title">
-				<p><span>My</span> Works</p>
+	<section class="skills" id="a-skills">
+		<div class="wrapper">
+			<h3><span>My</span> Skills</h3>
+			<div class="skill-set">
+				<figure>
+					<i class="devicon-html5-plain colored"></i>
+					<figcaption>HTML</figcaption>
+				</figure>
+				<figure>
+					<i class="devicon-css3-plain colored"></i>
+					<figcaption>CSS</figcaption>
+				</figure>
+				<figure>
+					<i class="devicon-javascript-plain colored"></i>
+					<figcaption>JavaScript</figcaption>
+				</figure>
+				<figure>
+					<i class="devicon-jquery-plain colored"></i>
+					<figcaption>jQuery</figcaption>
+				</figure>
 			</div>
-			<div class="work-gallery">
-				<img src="http://d33wubrfki0l68.cloudfront.net/b534f37b86f90930da5743566cde8f7b059cf0f8/14880/img/portofolio/portofolio1.jpg" alt="gallery-img">
-				<img src="http://d33wubrfki0l68.cloudfront.net/618a705eb8e7f28caadbbc5bb78253eec4e4dced/f41dc/img/portofolio/portofolio2.jpg" alt="gallery-img">
-				<img src="http://d33wubrfki0l68.cloudfront.net/3369e6e4f5d131ebdcfaeba8397e6ae09a26424d/2ed00/img/portofolio/portofolio3.jpg" alt="gallery-img">
-				<img src="http://d33wubrfki0l68.cloudfront.net/c96a02001c09f46859d3b7ea27afd9af1fd72013/47d08/img/portofolio/portofolio4.jpg" alt="gallery-img">
-				
+			<div class="skill-set">
+				<figure><i class="devicon-github-plain colored"></i>
+					<figcaption>GitHub</figcaption>
+				</figure>
+				<figure><i class="devicon-git-plain colored"></i>
+					<figcaption>Git</figcaption>
+				</figure>
+				<figure><i class="devicon-sass-original colored"></i>
+					<figcaption>Sass</figcaption>
+				</figure>
+				<figure><i class="devicon-gulp-plain colored"></i>
+					<figcaption>Gulp</figcaption>
+				</figure>
 			</div>
+
 		</div>
 	</section>
-	<section class="contact" id="a-contact">
+	<section class="works" id="a-works">
+		<div class="wrapper">
+			<h3><span>My</span> Works</h3>
+			<div class="projects">
+				<div class="project-container">
+					<div class="left">
+						<img src="../assets/img/charity.jpg" alt="">
+						<a href="http://jezzicamae.co/charityTheme/" target="my-projects">VIEW LIVE</a>
+					</div>
+					<div class="right">
+						<p class="project">"Charity Theme"</p>
+						<p class="title">PSD to HTML</p>
+						<p class="technology">HTML // CSS // Responsive // jquery</p>
+						<p class="description">
+							From a PSD design template into a pixel perfect website. It is fully responsive for perfect viewing on different devices.
+						</p>
+					</div>
+				</div>
+				<div class="project-container">
+					<div class="left">
+						<img src="../assets/img/construction.jpg" alt="">
+						<a href="http://jezzicamae.co/construction/" target="my-projects">VIEW LIVE</a>
+					</div>
+					<div class="right">
+						<p class="project">"Construction"</p>
+						<p class="title">PSD to HTML</p>
+						<p class="technology">HTML // CSS // Responsive // jquery</p>
+						<p class="description">
+							From a PSD design template into a pixel perfect website. It is fully responsive for perfect viewing on different devices.
+						</p>
+					</div>
+				</div>
+				<div class="project-container">
+					<div class="left">
+						<img src="../assets/img/escapade.jpg" alt="">
+						<a href="http://jezzicamae.co/escapade-psd/" target="my-projects">VIEW LIVE</a>
+					</div>
+					<div class="right">
+						<p class="project">"Escapade"</p>
+						<p class="title">PSD to HTML</p>
+						<p class="technology">HTML // CSS // Responsive // jquery</p>
+						<p class="description">
+							From a PSD design template into a pixel perfect website. It is fully responsive for perfect viewing on different devices.
+						</p>
+					</div>
+				</div>
+				<div class="project-container">
+					<div class="left">
+						<img src="../assets/img/recipe.jpg" alt="">
+						<a href="http://jezzicamae.co/list-my-recipes/" target="my-projects">VIEW LIVE</a>
+					</div>
+					<div class="right">
+						<p class="project">"List My Recipe"</p>
+						<p class="title">API Project</p>
+						<p class="technology">jQuery // javascript // API- Ajax</p>
+						<p class="description">
+							An API Project that helps you get the recipe you want, with the ingredients you have. It is fully responsive and animated.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	<footer>
+		<div class="right">
+			<div class="icons">
+				<a href="mailto:jezzicamae@gmail.com" target="contact"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/jezzicaaaaa/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="https://github.com/jezzicaaaaa"><i class="fa fa-github" aria-hidden="true"></i></a>
+			</div>
+			<p>&copy; Jezzica Mae Tan 2017</p>
+		</div>
+	</footer>
+	<!-- <section class="contact" id="a-contact">
 		<div class="contact-wrapper">
 			<div class="contact-head">
 				<p class="contact-title"><span>Contact</span> Me</p>
@@ -83,12 +206,14 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<script type="javascript" src="script.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	</section> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<script src="https://use.fontawesome.com/5cbb4bb0b3.js"></script>
-
 </body>
+
 </html>
