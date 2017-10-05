@@ -301,7 +301,7 @@ nav {
       img {
         height: 100%;
         width: 100%;
-        transform: rotate(180deg);
+        transform: rotateX(180deg);
       }
     }
     .about-right {
@@ -486,6 +486,7 @@ footer {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
+
     font-family: "Roboto Condensed", sans-serif;
   }
   a:hover i {
